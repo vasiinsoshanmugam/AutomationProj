@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57432" started-at="2018-06-08T15:15:02Z" finished-at="2018-06-08T15:15:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57432" started-at="2018-06-08T15:15:02Z" finished-at="2018-06-08T15:15:59Z">
+      <class name="com.ecom.amazon.login.HomepageTest">
+        <test-method status="PASS" signature="preset()[pri:0, instance:com.ecom.amazon.login.HomepageTest@18067a5]" name="preset" is-config="true" duration-ms="31699" started-at="2018-06-08T20:45:02Z" finished-at="2018-06-08T20:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preset -->
+        <test-method status="PASS" signature="TestHomepage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.amazon.login.HomepageTest@18067a5]" name="TestHomepage" duration-ms="1136" started-at="2018-06-08T20:45:34Z" data-provider="getData" finished-at="2018-06-08T20:45:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HP_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HomePage]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[To validate HomePage UI elements]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Application should be loggedin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1. Verify Logo
+2. Verify order history button
+3. verify My Wishlist button]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Order history and details#My wishlists]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[All UI elements should be proper]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomepage -->
+        <test-method status="PASS" signature="posttest()[pri:0, instance:com.ecom.amazon.login.HomepageTest@18067a5]" name="posttest" is-config="true" duration-ms="775" started-at="2018-06-08T20:45:36Z" finished-at="2018-06-08T20:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posttest -->
+      </class> <!-- com.ecom.amazon.login.HomepageTest -->
+      <class name="com.ecom.amazon.login.LoginTest">
+        <test-method status="PASS" signature="preset()[pri:0, instance:com.ecom.amazon.login.LoginTest@ecd4b]" name="preset" is-config="true" duration-ms="15161" started-at="2018-06-08T20:45:36Z" finished-at="2018-06-08T20:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preset -->
+        <test-method status="PASS" signature="testlogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ecom.amazon.login.LoginTest@ecd4b]" name="testlogin" duration-ms="7203" started-at="2018-06-08T20:45:51Z" data-provider="getData" finished-at="2018-06-08T20:45:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LG_001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[To validate Login valid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Application should show login page]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1. Click Sign in link
+2. Enter Usename
+3. Enter Password
+4. Click Signin btn]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[vasiinso@gmail.com#Admin@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[vasanth shanmugam]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="posttest()[pri:0, instance:com.ecom.amazon.login.LoginTest@ecd4b]" name="posttest" is-config="true" duration-ms="701" started-at="2018-06-08T20:45:59Z" finished-at="2018-06-08T20:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posttest -->
+      </class> <!-- com.ecom.amazon.login.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
