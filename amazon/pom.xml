@@ -42,7 +42,7 @@
      <artifactId>ATUReporter_Selenium_testNG_5.1</artifactId>
      <scope>system</scope>
      <version>5.1</version>
-     <systemPath>C:\Users\User\Desktop\Vasanth\amazon\amazon\Lib\ATUReporter_Selenium_testNG_5.1.jar</systemPath>
+     <systemPath>${basedir}/Lib/ATUReporter_Selenium_testNG_5.1.jar</systemPath>
    </dependency>
 
   <dependency>
@@ -50,7 +50,7 @@
      <artifactId>ATUTestRecorder_2.1</artifactId>
      <scope>system</scope>
      <version>2.1</version>
-     <systemPath>C:\Users\User\Desktop\Vasanth\amazon\amazon\Lib\ATUTestRecorder_2.1.jar</systemPath>
+     <systemPath>${basedir}/Lib/ATUTestRecorder_2.1.jar</systemPath>
    </dependency>
 
 
